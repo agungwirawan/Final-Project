@@ -1,0 +1,124 @@
+#place-nav {
+  width:auto;
+	height:40px;
+	font-size: 14px;
+	background-color: greenyellow;
+}
+#nav {
+  height:px;
+}
+#nav li {
+  height:35px;
+  float:left;
+  display:inline;
+  margin:0 5px;
+  position:relative;
+  font-family: Arial, verdana, serif;
+	z-index:1000;
+	
+}
+#nav li a {
+  float:left;
+  display:inline;
+  height:25px;
+  padding:10px 8px 0 8px;
+  font-size:12px;
+  color:#9e9e9e;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-shadow:0 0 3px #c7c7c7;
+}
+#nav li:hover a {
+  text-decoration:none;
+  color:#505050;
+}
+#place-nav ul ul {
+  position:absolute;
+  z-index:1200;
+  display:none;
+  width:186px;
+  margin: 0;
+  top: 35px;
+  left:0;
+  background:greenyellow;
+  padding:0 0 2px 0;
+}
+#place-nav ul li ul li {
+  display: inline;
+  float: left;
+  width:186px;
+  height:auto;
+  border-bottom:1px solid burlywood;
+  float: left;
+  padding: 0;
+  position:relative;
+  margin:0;
+}
+#place-nav ul ul ul {
+  position:absolute;
+  z-index:1300;
+  display:none;
+  width:186px;
+  margin: 0;
+  top: 0;
+  left:183px;
+  background:burlywood;
+  border-left:1px solid burlywood;
+  padding:0;
+}
+#place-nav ul li ul li ul li {
+  display: inline;
+  float: left;
+  padding: 0;
+}
+#place-nav #nav li:hover ul li a, #place-nav #nav li:hover ul li a:link, #place-nav #nav li:hover ul li a:visited {
+  color:#fff;
+  font-size:12px;
+  width:170px;
+  height:auto;
+  text-transform:none;
+  border:none;
+  background: none;
+  padding:9px 8px;
+  text-shadow:none;
+  margin:0;
+  font-weight:lighter;
+}
+#place-nav #nav li:hover ul li a:hover, #place-nav #nav li ul li a:hover {
+  text-decoration:none;
+  color: grey;
+  background:yellowgreen;
+}
+div#place-nav li:hover ul ul,
+div#place-nav li li:hover ul ul
+{display:none;} div#place-nav li:hover ul,
+div#place-nav li li:hover ul
+{display:block;}
+
+.animasi {
+	font-size: 50px;
+	object-position: 100px;
+	width: 100%;
+	white-space:nowrap;
+	overflow:hidden;
+	-webkit-animation: typing 10s steps(70, end);
+	animation: animasi-ketik 10s steps(70, end);
+  }
+  
+  @keyframes animasi-ketik{
+	from { width: 0; }
+  }
+  
+  @-webkit-keyframes animasi-ketik{
+	from { width: 0; }
+  }
+
+.footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	background-color: grey;
+	border-color: grey;
+}

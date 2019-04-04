@@ -1,0 +1,174 @@
+#place-nav {
+    width:auto;
+      height:40px;
+      font-size: 14px;
+      background-color: greenyellow;
+  }
+  #nav {
+    height:px;
+  }
+  #nav li {
+    height:35px;
+    float:left;
+    display:inline;
+    margin:0 5px;
+    position:relative;
+    font-family: Arial, verdana, serif;
+      z-index:1000;
+      
+  }
+  #nav li a {
+    float:left;
+    display:inline;
+    height:25px;
+    padding:10px 8px 0 8px;
+    font-size:12px;
+    color:#9e9e9e;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-shadow:0 0 3px #c7c7c7;
+  }
+  #nav li:hover a {
+    text-decoration:none;
+    color:#505050;
+  }
+  #place-nav ul ul {
+    position:absolute;
+    z-index:1200;
+    display:none;
+    width:186px;
+    margin: 0;
+    top: 35px;
+    left:0;
+    background:greenyellow;
+    padding:0 0 2px 0;
+  }
+  #place-nav ul li ul li {
+    display: inline;
+    float: left;
+    width:186px;
+    height:auto;
+    border-bottom:1px solid burlywood;
+    float: left;
+    padding: 0;
+    position:relative;
+    margin:0;
+  }
+  #place-nav ul ul ul {
+    position:absolute;
+    z-index:1300;
+    display:none;
+    width:186px;
+    margin: 0;
+    top: 0;
+    left:183px;
+    background:burlywood;
+    border-left:1px solid burlywood;
+    padding:0;
+  }
+  #place-nav ul li ul li ul li {
+    display: inline;
+    float: left;
+    padding: 0;
+  }
+  #place-nav #nav li:hover ul li a, #place-nav #nav li:hover ul li a:link, #place-nav #nav li:hover ul li a:visited {
+    color:#fff;
+    font-size:12px;
+    width:170px;
+    height:auto;
+    text-transform:none;
+    border:none;
+    background: none;
+    padding:9px 8px;
+    text-shadow:none;
+    margin:0;
+    font-weight:lighter;
+  }
+  #place-nav #nav li:hover ul li a:hover, #place-nav #nav li ul li a:hover {
+    text-decoration:none;
+    color: grey;
+    background:yellowgreen;
+  }
+  div#place-nav li:hover ul ul,
+  div#place-nav li li:hover ul ul
+  {display:none;} div#place-nav li:hover ul,
+  div#place-nav li li:hover ul
+  {display:block;}
+
+footer {
+    margin-top: 50px;
+	margin-bottom: 50px;
+    display: block;
+    color: black;
+    border-top: 3px; 
+    text-align: center;
+}
+
+.kalkulator{
+    width: 300px;
+    background:#fff09b;
+    margin: 50px auto 0px auto;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#layar{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    padding: 7px 5px;
+    text-align: right;
+    outline: none; 
+}
+
+.container-tombol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tombol {
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    height: 70px;
+    border: 1px solid #cecece;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tombol:nth-child(4n+1) {
+    border-left: 1px solid #cecece;
+}
+
+.tombol:hover{
+    background:#e4e4e4;
+    cursor:pointer;
+}
+
+
+#nol{
+    flex-grow: 1;
+}
+
+.operator{
+    background: #d8d8dd;
+
+}
+
+#hitung{
+    background: orange;
+}
+
+#hitung:hover{
+    background: orange;
+}
